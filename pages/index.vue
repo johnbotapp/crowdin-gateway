@@ -1,13 +1,13 @@
 <template>
   <div class="flex grow flex-col items-center justify-center bg-[#21252B]">
-    <div class="container flex flex-col items-center justify-center gap-8 p-4">
+    <div class="container flex flex-col items-center justify-center gap-12 p-4">
       <div class="flex flex-col items-center justify-center gap-2">
         <CrowdinLogo
           class="grayscale invert"
         />
         <h1 class="text-center text-lg text-[#E2E5E9]">Please select a project to contribute!</h1>
       </div>
-      <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6">
         <a
           v-for="(project, index) in projects"
           :key="index"

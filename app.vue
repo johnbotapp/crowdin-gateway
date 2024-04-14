@@ -1,5 +1,6 @@
 <template>
-  <NuxtLayout>
+  <div class="min-h-screen flex flex-col">
     <NuxtPage />
-  </NuxtLayout>
+    <Footer />
+  </div>
 </template>

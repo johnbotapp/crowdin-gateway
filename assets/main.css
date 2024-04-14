@@ -11,12 +11,19 @@
 
 /* Fonts */
 @font-face {
-  font-family: "Inter var";
-  src: url("/fonts/Inter-VariableFont_slnt,wght.woff2") format("woff2"),
-    url("/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-family: "NotoSans var";
+  src: url("/fonts/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: 100 900;
   font-display: swap;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSans var";
+  src: url("/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
 }
 
 /* Global */

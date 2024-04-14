@@ -7,7 +7,7 @@
         />
         <h1 class="text-[#E2E5E9] text-lg">Please select a project to contribute!</h1>
       </div>
-      <div class="grid gap-4 grid-cols-2">
+      <div class="grid gap-4 grid-cols-2 md:grid-cols-1">
         <a
           v-for="(project, index) in projects"
           :key="index"

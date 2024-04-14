@@ -1,6 +1,6 @@
 <template>
   <div>
-    <footer class="flex flex-wrap items-center justify-center gap-2 p-2 text-sm text-[#E2E5E9] bg-[#21252B]">
+    <footer class="flex flex-wrap items-center justify-center gap-2 bg-[#21252B] p-2 text-sm text-[#E2E5E9]">
       <p>
         <span>Made with</span>
         <a
@@ -18,7 +18,7 @@
           johnbot.app
         </a>
       </p>
-      <div class="h-1 w-1 rounded-full bg-black dark:bg-white"></div>
+      <div class="size-1 rounded-full bg-black dark:bg-white"></div>
       <span>Not affiliated with OÜ Crowdin</span>
     </footer>
   </div>

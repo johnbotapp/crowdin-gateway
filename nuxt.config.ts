@@ -11,5 +11,10 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {}
     }
+  },
+  app: {
+    head: {
+      title: 'Crowdin Gateway / John-Bot',
+    },
   }
 });
